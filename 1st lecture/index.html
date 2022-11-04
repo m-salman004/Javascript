@@ -32,11 +32,9 @@
                         <button type="button" class="btn btn-secondary text-white" onclick="document.getElementById ('textOne'). innerHTML = 'Hello JavaScript !' " >Click Me !</button>   
                         <h2 class="mt-5">What can JavaScript do?</h2>
                         <p>JavaScript can change HTML attribute value.</p>
-                        <button type="button" class="btn btn-secondary">Turn on the Light</button>
-                        <img src="Images/pic_bulboff.gif" class="img-fluid" alt="...">
-                        <button type="button" class="btn btn-secondary">Turn off the Light</button>
-                           
-
+                        <button type="button" class="btn btn-secondary" onclick="document.getElementById ('bulb').src = 'images/pic_bulbon.gif' ">Turn on Light</button>
+                        <img id="bulb" src="images/pic_bulboff.gif" alt="" sizes="" srcset="">
+                        <button type="button" class="btn btn-secondary" onclick="document.getElementById ('bulb').src = 'images/pic_bulboff.gif' ">Turn off Light</button>
                     </div>
                 </div>
             </div>

@@ -2,8 +2,13 @@ function textOne () {
     document.getElementById ('textOne'). innerHTML = 'Hello JavaScript !' ;
 }
 function bulbOn () {
-    document.getElementById('bulb').src='images/pic_bulbon.gif';
+    document.getElementById('bulbOn').src='images/pic_bulbon.gif';
 }
 function bulbOff () {
-    document.getElementById('bulb').src='images/pic_bulboff.gif';
+    document.getElementById('bulbOn').src='images/pic_bulboff.gif';
+}
+function printDocument () {
+    document.getElementById('bulbOn').style.display = 'none';
+
+    print();
 }

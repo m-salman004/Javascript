@@ -23,6 +23,6 @@ function content () {
 function documentWrite () {
     document.write ("Muhammad Salman Developer and Programmer. Front-end Developer. HTML & CSS and Bootstrap.");
 }
+window.alert ("Muhammd Salman Front-end Developer. !")
 
-documentWrite ();
 

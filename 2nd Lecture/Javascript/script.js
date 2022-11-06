@@ -15,7 +15,10 @@ function displayBlock () {
     document.getElementById ("display").style.display = "block";
 }
 function addContent () {
-    document.getElementById ("content").innerText = "Muhammad Salman Developer and Programmer";
+    document.getElementById ("content").innerText = "<b>Developer and Programmer </b>";
+}
+function content () {
+    document.getElementById ("addContent").innerHTML = "<b>Developer and Programmer </b>";
 }
 
 

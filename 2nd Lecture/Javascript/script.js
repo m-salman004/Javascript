@@ -24,5 +24,7 @@ function documentWrite () {
 }
 window.alert ("Muhammd Salman Front-end Developer. !");
 
+console.log ('We are line in 20. !');
+
 
 

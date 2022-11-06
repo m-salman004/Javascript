@@ -20,6 +20,9 @@ function addContent () {
 function content () {
     document.getElementById ("addContent").innerHTML = "<b>Developer and Programmer </b>";
 }
+function documentWrite () {
+    document.write ("Muhammad Salman Developer and Programmer. Front-end Developer. HTML & CSS and Bootstrap.");
+}
 
-
+documentWrite ();
 

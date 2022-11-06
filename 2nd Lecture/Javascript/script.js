@@ -14,6 +14,9 @@ function displayNone () {
 function displayBlock () {
     document.getElementById ("display").style.display = "block";
 }
+function addContent () {
+    document.getElementById ("content").innerText = "Muhammad Salman Developer and Programmer";
+}
 
 
 

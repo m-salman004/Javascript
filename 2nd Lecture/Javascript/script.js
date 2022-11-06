@@ -9,7 +9,6 @@ function colorborder () {
 }
 function displayNone () {
     document.getElementById ("display").style.display = "none";
-    // document.getElementById ("display").style.display = "block";
 }
 function displayBlock () {
     document.getElementById ("display").style.display = "block";
@@ -23,6 +22,7 @@ function content () {
 function documentWrite () {
     document.write ("Muhammad Salman Developer and Programmer. Front-end Developer. HTML & CSS and Bootstrap.");
 }
-window.alert ("Muhammd Salman Front-end Developer. !")
+window.alert ("Muhammd Salman Front-end Developer. !");
+
 
 

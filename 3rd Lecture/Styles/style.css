@@ -9,3 +9,7 @@ main {
 .box {
     border: 1px solid black;
 }
+/* Buttons */
+.btn {
+    border-radius: 0%;
+}

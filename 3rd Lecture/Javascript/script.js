@@ -2,10 +2,12 @@
 document.getElementById ('alertString').onclick = function () {
     alert ('Muhammad Salman !.');
     // Clear Statement
-    document.getElementById ('statement').innerHTML = '';
+    let statement = "alert ('Muhammad Salman !.') "
+    document.getElementById ('statement').innerHTML = statement;
     // Clear Output
-    document.getElementById ('statement').innerHTML = '';
+    // document.getElementById ('statement').innerHTML = '';
 }
+
 //    Data Types = 8
 // 1- String
 // 2- Boolean

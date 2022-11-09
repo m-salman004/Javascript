@@ -1,4 +1,4 @@
-// Alert Button
+// Alert Name
 document.getElementById ('alertString').onclick = function () {
     alert ('Muhammad Salman !.');
     // Clear Statement
@@ -7,7 +7,10 @@ document.getElementById ('alertString').onclick = function () {
     // Clear Output
     // document.getElementById ('statement').innerHTML = '';
 }
-
+// Alert Number
+    document.getElementById ('alertNumber').onclick = function () {
+        alert (786)
+    }
 //    Data Types = 8
 // 1- String
 // 2- Boolean

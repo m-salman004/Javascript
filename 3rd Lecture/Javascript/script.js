@@ -21,7 +21,7 @@ document.getElementById ('alertString').onclick = function () {
 // Show Variable Names 
 document.getElementById ('variableNames').onclick = function () {
     
-    let Variable = ('<ul><li>Names can contain letters, digits, underscores, and dollar signs.</li></ul> <ul><li>Names must begin with a letter.</li></ul><ul><li>Names can also begin with $ and _ </li></ul> <ul><li>Names are case sensitive (y and Y are different variables).</li></ul><ul><li>Reserved words (like JavaScript keywords) cannot be used as names.</li></ul>')
+    let Variable = ('<ul><li>Names can contain letters, digits, underscores, and dollar signs.</li></ul> <ul><li>Names must begin with a letter.</li></ul><ul><li>Names can also begin with <code> $ </code> and <code> _ </code> </li></ul> <ul><li>Names are case sensitive (y and Y are different variables).</li></ul><ul><li>Reserved words (like JavaScript keywords) cannot be used as names.</li></ul>')
     document.getElementById ('Output').innerHTML = Variable;
     }
 //    Data Types = 8

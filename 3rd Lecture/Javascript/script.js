@@ -1,15 +1,21 @@
 // Alert Name
 document.getElementById ('alertString').onclick = function () {
     alert ('Muhammad Salman !.');
-    // Clear Statement
+    // Original Statement
     let statement = "alert ('Muhammad Salman !.') "
     document.getElementById ('statement').innerHTML = statement;
     // Clear Output
     // document.getElementById ('statement').innerHTML = '';
 }
+
 // Alert Number
     document.getElementById ('alertNumber').onclick = function () {
-        alert (786)
+        alert (786);
+    // Original Statement
+    let Number = "alert (786)"
+    document.getElementById ('statement').innerHTML = Number;
+    // Clear Output
+    // document.getElementById ('statement').innerHTML = '';
     }
 //    Data Types = 8
 // 1- String

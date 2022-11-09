@@ -21,7 +21,7 @@ document.getElementById ('alertString').onclick = function () {
 // Show Variable Names 
 document.getElementById ('variableNames').onclick = function () {
     
-    let Variable = ('<ul><li>Names can contain letters, digits, underscores, and dollar signs.</li></ul>')
+    let Variable = ('<ul><li>Names can contain letters, digits, underscores, and dollar signs.</li></ul> <ul><li>Names must begin with a letter.</li></ul><ul><li>Names can also begin with $ and _ </li></ul>')
     document.getElementById ('Output').innerHTML = Variable;
     }
 //    Data Types = 8

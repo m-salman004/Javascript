@@ -5,7 +5,7 @@ document.getElementById ('alertString').onclick = function () {
     let statement = "alert ('Muhammad Salman !.') "
     document.getElementById ('statement').innerHTML = statement;
     // Clear Output
-    // document.getElementById ('statement').innerHTML = '';
+    // document.getElementById ('Output').innerHTML = '';
 }
 
 // Alert Number
@@ -15,7 +15,14 @@ document.getElementById ('alertString').onclick = function () {
     let Number = "alert (786)"
     document.getElementById ('statement').innerHTML = Number;
     // Clear Output
-    // document.getElementById ('statement').innerHTML = '';
+    // document.getElementById ('Output').innerHTML = '';
+}
+
+// Show Variable Names 
+document.getElementById ('variableNames').onclick = function () {
+    
+    let Variable = ('<ul><li>Names can contain letters, digits, underscores, and dollar signs.</li></ul>')
+    document.getElementById ('Output').innerHTML = Variable;
     }
 //    Data Types = 8
 // 1- String

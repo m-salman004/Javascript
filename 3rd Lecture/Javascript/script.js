@@ -3,7 +3,7 @@ document.getElementById ('alertString').onclick = function () {
     alert ('Muhammad Salman !.');
     // Original Statement
     let statement = "alert ('Muhammad Salman !.') "
-    document.getElementById ('statement').innerHTML = statement;
+    document.getElementById ('statments').innerHTML = statement;
 }
 
 // Alert Number
@@ -11,7 +11,7 @@ document.getElementById ('alertString').onclick = function () {
         alert (786);
     // Original Statement
     let Number = "alert (786)"
-    document.getElementById ('statement').innerHTML = Number;
+    document.getElementById ('statments').innerHTML = Number;
    
 }
 
@@ -32,6 +32,12 @@ document.getElementById ('camelCaseExamples').onclick = function () {
     
 }
 // Sum 2 Numbers
+
+    document.getElementById ('sumNumbers').onclick = function () {
+        let num1 = 10;
+        let num2 = 40;
+        let sum  = num1 + num2;
+    }
     
 //    Data Types = 8
 // 1- String
@@ -42,9 +48,13 @@ document.getElementById ('camelCaseExamples').onclick = function () {
 // 6- undefined
 // 7- Object
 // 8- Null
+
+// Clear Statement
 document.getElementById("clearstmnt").onclick = function() {
-    satement.innerText = "";
+    statments.innerText = "";
     }
+    
+// Clear Output
     document.getElementById("clroutput").onclick = function() {
     
         outputs.innerHTML = "";

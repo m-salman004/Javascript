@@ -64,6 +64,12 @@ document.getElementById ('mutiplyNumbers').onclick = function () {
     let statement = "let num1 = "+ num1 + "; <br/> let num2 = "+ num2 +";<br/> let multiply = num1 * num2;"
     document.getElementById ('statements').innerHTML = statement;  
 }
+// Divide 2 Numbers
+document.getElementById ('divideNumbers').onclick = function () {
+    let num1 = 40;
+    let num2 = 30;
+    let multiply  = num1 / num2;
+}
 //    Data Types = 8
 // 1- String
 // 2- Boolean

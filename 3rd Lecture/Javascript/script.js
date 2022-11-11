@@ -38,8 +38,8 @@ document.getElementById ('sumNumbers').onclick = function () {
     let num2 = 40;
     let sum  = num1 + num2;
     
-    document.getElementById ('outputs').innerHTML = "<p>"+ sum +" </p>"
-
+    document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ sum +" </p>"
+    
    
     }
     

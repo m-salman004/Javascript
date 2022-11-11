@@ -68,7 +68,8 @@ document.getElementById ('mutiplyNumbers').onclick = function () {
 document.getElementById ('divideNumbers').onclick = function () {
     let num1 = 40;
     let num2 = 30;
-    let multiply  = num1 / num2;
+    let divide  = num1 / num2;
+    document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ divide +" </p>"
 }
 //    Data Types = 8
 // 1- String

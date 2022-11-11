@@ -52,6 +52,13 @@ document.getElementById ('subtractNumbers').onclick = function () {
     let statement = "let num1 = "+ num1 + "; <br/> let num2 = "+ num2 +";<br/> let subtract = num1 - num2;"
     document.getElementById ('statements').innerHTML = statement;  
 }
+
+// Multiply 2 Numbers
+document.getElementById ('subtractNumbers').onclick = function () {
+    let num1 = 40;
+    let num2 = 30;
+    let multiply  = num1 * num2;
+}
 //    Data Types = 8
 // 1- String
 // 2- Boolean

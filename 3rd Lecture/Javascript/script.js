@@ -47,7 +47,8 @@ document.getElementById ('sumNumbers').onclick = function () {
 document.getElementById ('subtractNumbers').onclick = function () {
     let num1 = 40;
     let num2 = 30;
-    let sum  = num1 - num2;
+    let subtract  = num1 - num2;
+    document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ subtract +" </p>"
 }
 //    Data Types = 8
 // 1- String

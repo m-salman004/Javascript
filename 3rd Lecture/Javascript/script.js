@@ -80,7 +80,9 @@ document.getElementById ('divideNumbers').onclick = function () {
 
     let calculateNumbers = 10/5 * 2 + 8 ** 9 - (8+5) ;
     document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ calculateNumbers +" </p>"
-
+    
+    let statement = "Let calculeNumbers = 10/5 * 2 + 8 ** 9 - (8+5)";
+    document.getElementById ('statements').innerHTML = statement; 
 }
 //    Data Types = 8
 // 1- String

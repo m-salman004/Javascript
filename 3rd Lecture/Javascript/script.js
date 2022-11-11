@@ -49,6 +49,8 @@ document.getElementById ('subtractNumbers').onclick = function () {
     let num2 = 30;
     let subtract  = num1 - num2;
     document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ subtract +" </p>"
+    let statement = "let num1 = "+ num1 + "; <br/> let num2 = "+ num2 +";<br/> let subtract = num1 - num2;"
+    document.getElementById ('statements').innerHTML = statement;  
 }
 //    Data Types = 8
 // 1- String

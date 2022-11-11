@@ -70,9 +70,17 @@ document.getElementById ('divideNumbers').onclick = function () {
     let num2 = 30;
     let divide  = num1 / num2;
     document.getElementById ('outputs').innerHTML = "<p class = 'text-center'>"+ divide +" </p>"
-
+    
     let statement = "let num1 = "+ num1 + "; <br/> let num2 = "+ num2 +";<br/> let divide = num1 / num2;"
     document.getElementById ('statements').innerHTML = statement; 
+}
+
+// Calculate Some Number
+    document.getElementById ('calculateSomeNumbers').onclick = function () {
+
+    let calculateNumbers = 10/5 * 2 + 8 ** 9 - (8+5) ;
+
+
 }
 //    Data Types = 8
 // 1- String

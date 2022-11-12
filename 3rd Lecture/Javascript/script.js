@@ -84,23 +84,24 @@ document.getElementById ('divideNumbers').onclick = function () {
     let statement = "Let calculeNumbers = 10/5 * 2 + 8 ** 9 - (8+5)";
     document.getElementById ('statements').innerHTML = statement; 
 }
-//    Data Types = 8
-// 1- String
-// 2- Boolean
-// 3- Number
-// 4- Array 
-// 5- Function () {}
-// 6- undefined
-// 7- Object
-// 8- Null
 
 // Clear Statement
 document.getElementById("clearstmnt").onclick = function() {
     statments.innerText = "";
-    }
-    
+}
+
 // Clear Output
-    document.getElementById("clroutput").onclick = function() {
+document.getElementById("clroutput").onclick = function() {
     
-        outputs.innerHTML = "";
-    }
+    outputs.innerHTML = "";
+}
+
+// Data Types  =  8
+    // 1- String
+    // 2- Boolean
+    // 3- Number
+    // 4- Array 
+    // 5- Function () {}
+    // 6- undefined
+    // 7- Object
+    // 8- Null

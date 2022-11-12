@@ -5,6 +5,8 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
     var banger = " ! ";
     document.getElementById ('statements').innerHTML = (message + name + banger);
     document.getElementById ('outputs').innerHTML = (message + name + banger);
+    console.log (message + name + banger);
+    alert (message + name + banger);
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

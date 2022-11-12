@@ -10,3 +10,8 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 document.getElementById ('clearstmnt').onclick = function () {
     document.getElementById ('statements').innerHTML = "";
 }
+
+// Clear output 
+document.getElementById ('clroutput').onclick = function () {
+    document.getElementById ('outputs').innerHTML = "";
+}

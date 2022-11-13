@@ -23,6 +23,8 @@ document.getElementById ('askFromUser').onclick = function () {
     var number1 = +prompt ("Enter your number1");
 
     if (number1 == 0) {
+        alert ("Please Enter Number 1");
+        prompt ("Please Enter Your Number 1");
     }
     var number2 = +prompt ("Enter your number2" );
 

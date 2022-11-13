@@ -16,6 +16,7 @@ document.getElementById ('askFromUser').onclick = function () {
     var lastName = prompt ("What is your Last Name?");
     var banger = " ! ";
     document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
+    document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
 
 }
 

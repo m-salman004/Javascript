@@ -12,9 +12,10 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 // Ask Name From User
 document.getElementById ('askFromUser').onclick = function () {
     var message = "Good Day ";
-    var name = prompt ("What is your First Name?");
-    var name = prompt ("What is your Last Name?");
+    var firstName = prompt ("What is your First Name?");
+    var lastName = prompt ("What is your Last Name?");
     var banger = " ! ";
+    document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
 
 }
 

@@ -11,7 +11,11 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 
 // Ask Name From User
 document.getElementById ('askFromUser').onclick = function () {
-    
+    var message = "Good Day ";
+    var name = prompt ("What is your First Name?");
+    var name = prompt ("What is your Last Name?");
+    var banger = " ! ";
+
 }
 
 // Clear Statement 

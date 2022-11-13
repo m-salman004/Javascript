@@ -20,8 +20,8 @@ document.getElementById ('askFromUser').onclick = function () {
     // console.log (message + firstName + " " + lastName + banger);
     // alert (message + firstName + " " + lastName + banger);
     
-    var number1 = prompt ("Enter your number1", "10");
-    var number2 = prompt ("Enter your number2","20" );
+    var number1 = +prompt ("Enter your number1", "10");
+    var number2 = +prompt ("Enter your number2","20" );
 
     document.getElementById ('statements').innerHTML = (number1 + number2);
     document.getElementById ('outputs').innerHTML = (number1 + number2);

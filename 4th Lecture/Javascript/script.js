@@ -17,6 +17,8 @@ document.getElementById ('askFromUser').onclick = function () {
     var banger = " ! ";
     document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
     document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
+    console.log (message + firstName + " " + lastName + banger);
+    alert (message + firstName + " " + lastName + banger);
 
 }
 

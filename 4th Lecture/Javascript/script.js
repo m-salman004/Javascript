@@ -15,13 +15,16 @@ document.getElementById ('askFromUser').onclick = function () {
     // var firstName = prompt ("What is your First Name?");
     // var lastName = prompt ("What is your Last Name?");
     // var banger = " ! ";
-    document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
-    document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
+    // document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
+    // document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
     // console.log (message + firstName + " " + lastName + banger);
     // alert (message + firstName + " " + lastName + banger);
     
     var number1 = prompt ("Enter your number1.");
     var number2 = prompt ("Enter your number2.");
+
+    document.getElementById ('statements').innerHTML = (number1 + number2);
+    document.getElementById ('outputs').innerHTML = (number1 + number2);
 }
 
 

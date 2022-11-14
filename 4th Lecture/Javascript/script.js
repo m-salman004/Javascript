@@ -1,3 +1,5 @@
+
+document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 // Concatenation Some Strings
 document.getElementById ('concatenateSomeStrings').onclick = function () {
     var message = "Good Day ";
@@ -11,12 +13,12 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 
 // Ask Name From User
 document.getElementById ('askFromUser').onclick = function () {
-    // var message = "Good Day ";
+    var message = "Good Day ";
     var firstName = prompt ("What is your First Name?");
-    // var lastName = prompt ("What is your Last Name?");
-    // var banger = " ! ";
-    // document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
-    // document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
+    var lastName = prompt ("What is your Last Name?");
+    var banger = " ! ";
+    document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
+    document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
     // console.log (message + firstName + " " + lastName + banger);
     // alert (message + firstName + " " + lastName + banger);
     
@@ -45,14 +47,15 @@ document.getElementById ('askFromUser').onclick = function () {
     // document.getElementById ('statements').innerHTML = (number1 + number2);
     // document.getElementById ('outputs').innerHTML = (number1 + number2);
 
-    if (firstName == "Ali") {
-        document.getElementById ('statements').innerHTML = ('Good Morning !. Muhammad Salman.')
-    }
-    if (firstName == "Dawood") {
-        document.getElementById ('outputs').innerHTML = ('Have a Nice Day.')
-    }
+    // if (firstName == "Ali") {
+    //     document.getElementById ('statements').innerHTML = ('Good Morning !. Muhammad Salman.')
+    // }
+    // if (firstName == "Dawood") {
+    //     document.getElementById ('outputs').innerHTML = ('Have a Nice Day.')
+    // }
 }
 
+// Comparison Operators
 
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

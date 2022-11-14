@@ -12,7 +12,7 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 // Ask Name From User
 document.getElementById ('askFromUser').onclick = function () {
     // var message = "Good Day ";
-    // var firstName = prompt ("What is your First Name?");
+    var firstName = prompt ("What is your First Name?");
     // var lastName = prompt ("What is your Last Name?");
     // var banger = " ! ";
     // document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
@@ -24,26 +24,33 @@ document.getElementById ('askFromUser').onclick = function () {
 
     // if (number1 == 0) {
     //     alert ("Please Enter Number 1");
-    //     // prompt ("Please Enter Your Number 1");
+        // prompt ("Please Enter Your Number 1");
     //     return;
     // }
     // var number2 = +prompt ("Enter your number2" );
     // if (number1 == 0) {
     //     alert ("Please Enter Number 1");
-    //     // prompt ("Please Enter Your Number 1");
+        // prompt ("Please Enter Your Number 1");
     //     return;
     // }
 
-    var one = "2";
-    var two = 2;
-    if (one == two) {
-        document.getElementById ('statements').innerHTML = ("Yess It's True");
-        document.getElementById ('outputs').innerHTML = ("Yess It's True");
+    // var one = "2";
+    // var two = 2;
+    // if (one == two) {
+    //     document.getElementById ('statements').innerHTML = ("Yess It's True");
+    //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
 
-    }
+    // }
 
     // document.getElementById ('statements').innerHTML = (number1 + number2);
     // document.getElementById ('outputs').innerHTML = (number1 + number2);
+
+    if (firstName == "Ali") {
+        document.getElementById ('statements').innerHTML = ('Good Morning !. Muhammad Salman.')
+    }
+    if (firstName == "Dawood") {
+        document.getElementById ('outputs').innerHTML = ('Have a Nice Day.')
+    }
 }
 
 

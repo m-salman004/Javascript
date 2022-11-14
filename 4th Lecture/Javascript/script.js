@@ -1,12 +1,11 @@
 // Prompt 
-var message = "Good Day !";
-var fName   = prompt ("Please enter your Name to visit our Website.");
+// var message = "Good Day !";
+// var fName   = prompt ("Please enter your Name to visit our Website.");
 
-if (fName == null) {
-    alert ("Please Enter Your Name.");
-}
-document.getElementById ('goodDay').innerHTML = (message + " " + fName );
-
+// if (fName == null) {
+//     alert ("Please Enter Your Name.");
+// }
+// document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 
 // Concatenation Some Strings
 document.getElementById ('concatenateSomeStrings').onclick = function () {

@@ -1,5 +1,9 @@
+// Prompt 
+var message = "Good Day";
+var fName   = prompt ("Please enter your Name to visit our Website.");
 
-document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+
+
 // Concatenation Some Strings
 document.getElementById ('concatenateSomeStrings').onclick = function () {
     var message = "Good Day ";

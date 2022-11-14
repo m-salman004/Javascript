@@ -28,6 +28,11 @@ document.getElementById ('askFromUser').onclick = function () {
         return;
     }
     var number2 = +prompt ("Enter your number2" );
+    if (number1 == 0) {
+        alert ("Please Enter Number 1");
+        // prompt ("Please Enter Your Number 1");
+        return;
+    }
 
     document.getElementById ('statements').innerHTML = (number1 + number2);
     document.getElementById ('outputs').innerHTML = (number1 + number2);

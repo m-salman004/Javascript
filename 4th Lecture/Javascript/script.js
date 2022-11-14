@@ -20,22 +20,30 @@ document.getElementById ('askFromUser').onclick = function () {
     // console.log (message + firstName + " " + lastName + banger);
     // alert (message + firstName + " " + lastName + banger);
     
-    var number1 = +prompt ("Enter your number1");
+    // var number1 = +prompt ("Enter your number1");
 
-    if (number1 == 0) {
-        alert ("Please Enter Number 1");
-        // prompt ("Please Enter Your Number 1");
-        return;
-    }
-    var number2 = +prompt ("Enter your number2" );
-    if (number1 == 0) {
-        alert ("Please Enter Number 1");
-        // prompt ("Please Enter Your Number 1");
-        return;
+    // if (number1 == 0) {
+    //     alert ("Please Enter Number 1");
+    //     // prompt ("Please Enter Your Number 1");
+    //     return;
+    // }
+    // var number2 = +prompt ("Enter your number2" );
+    // if (number1 == 0) {
+    //     alert ("Please Enter Number 1");
+    //     // prompt ("Please Enter Your Number 1");
+    //     return;
+    // }
+
+    var one = "2";
+    var two = 2;
+    if (one == two) {
+        document.getElementById ('statements').innerHTML = ("Yess It's True");
+        document.getElementById ('outputs').innerHTML = ("Yess It's True");
+
     }
 
-    document.getElementById ('statements').innerHTML = (number1 + number2);
-    document.getElementById ('outputs').innerHTML = (number1 + number2);
+    // document.getElementById ('statements').innerHTML = (number1 + number2);
+    // document.getElementById ('outputs').innerHTML = (number1 + number2);
 }
 
 

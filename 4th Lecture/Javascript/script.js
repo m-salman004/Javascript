@@ -127,7 +127,11 @@ document.getElementById ('comparisonOperators').onclick = function () {
 
     var num3 = 15;
     var num4 = 15;
-    
+
+    if (num3 >= num4) {
+            document.getElementById ('statements').innerHTML = ("Yess It's True. The 15 = 15");
+            document.getElementById ('outputs').innerHTML = ("Yess It's True. The 15 = 15");
+        }
 }
 
 

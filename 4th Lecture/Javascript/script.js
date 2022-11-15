@@ -146,6 +146,10 @@ document.getElementById ('comparisonOperators').onclick = function () {
             document.getElementById ('statements').innerHTML = ("First Condtion is not Ture.");
             document.getElementById ('outputs').innerHTML = ("First Condtion is not Ture.");
         }
+        else if (num5 === num6) {
+            document.getElementById ('statements').innerHTML = ("Second Condtion is not Ture.");
+            document.getElementById ('outputs').innerHTML = ("Second Condtion is not Ture.");
+        }
 
     }
 

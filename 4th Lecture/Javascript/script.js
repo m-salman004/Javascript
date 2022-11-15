@@ -138,6 +138,14 @@ document.getElementById ('comparisonOperators').onclick = function () {
         }
 }
 
+// If else If
+    document.getElementById ('ifElseIf').onclick = function () {
+        var num5 = 10;
+        var num6 = 20;
+        
+
+    }
+
 
 
 // Clear Statement 

@@ -125,12 +125,16 @@ document.getElementById ('comparisonOperators').onclick = function () {
     //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
     // }
 
-    var num3 = 15;
+    var num3 = 14;
     var num4 = 15;
 
     if (num3 >= num4) {
             document.getElementById ('statements').innerHTML = ("Yess It's True. The 15 = 15");
             document.getElementById ('outputs').innerHTML = ("Yess It's True. The 15 = 15");
+        }
+        else {
+            document.getElementById ('statements').innerHTML = ("No, It's not True. The 14 is not equal to 15");
+            document.getElementById ('outputs').innerHTML = ("No, It's not True. The 14 is not equal to 15");
         }
 }
 

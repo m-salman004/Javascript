@@ -154,7 +154,10 @@ document.getElementById ('comparisonOperators').onclick = function () {
             document.getElementById ('statements').innerHTML = ("Third Condtion is Ture.");
             document.getElementById ('outputs').innerHTML = ("Third Condtion is Ture.");
         }
-        
+        else {
+            document.getElementById ('statements').innerHTML = ("Your Condtion is not Ture.");
+            document.getElementById ('outputs').innerHTML = ("Your Condtion is not Ture.");
+        }
 
     }
 

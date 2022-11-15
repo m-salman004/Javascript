@@ -106,6 +106,12 @@ document.getElementById ('askFromUser').onclick = function () {
 // Greater Than or Equal to >=
 // Less Than or Equal to <=
 
+document.getElementById ('comparisonOperators').onclick = function () {
+    var num1 = 15;
+    var num2 = 15;
+
+}
+
 
 
 // Clear Statement 

@@ -107,13 +107,13 @@ document.getElementById ('askFromUser').onclick = function () {
 // Less Than or Equal to <=
 
 document.getElementById ('comparisonOperators').onclick = function () {
-    var Number1 = ("12") ;
-    var Number2 = ("12") ;
+    // var Number1 = ("12") ;
+    // var Number2 = ("12") ;
 // Less Than
-    if (Number1 <= Number2) {
-        document.getElementById ('statements').innerHTML = ("Yess It's True");
-        document.getElementById ('outputs').innerHTML = ("Yess It's True");
-    }
+    // if (Number1 <= Number2) {
+    //     document.getElementById ('statements').innerHTML = ("Yess It's True");
+    //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
+    // }
 // Greater Than
     // if (num1 > num2) {
     //     document.getElementById ('statements').innerHTML = ("Yess It's True");
@@ -125,6 +125,9 @@ document.getElementById ('comparisonOperators').onclick = function () {
     //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
     // }
 
+    var num3 = 15;
+    var num4 = 15;
+    
 }
 
 

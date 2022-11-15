@@ -107,10 +107,10 @@ document.getElementById ('askFromUser').onclick = function () {
 // Less Than or Equal to <=
 
 document.getElementById ('comparisonOperators').onclick = function () {
-    var num1 = 15;
-    var num2 = 15;
+    var Number1 = ("12") ;
+    var Number2 = ("12") ;
 // Less Than
-    if (num1 <= num2) {
+    if (Number1 <= Number2) {
         document.getElementById ('statements').innerHTML = ("Yess It's True");
         document.getElementById ('outputs').innerHTML = ("Yess It's True");
     }
@@ -124,6 +124,7 @@ document.getElementById ('comparisonOperators').onclick = function () {
     //     document.getElementById ('statements').innerHTML = ("Yess It's True");
     //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
     // }
+
 }
 
 

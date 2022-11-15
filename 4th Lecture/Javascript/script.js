@@ -19,17 +19,16 @@
 // }
 
 // Alternative Method
-function askName () {
-    var message = "Good Day !";
-var fName   = prompt ("Please enter your Name to visit our Website.");
+// function askName () {
+//     var message = "Good Day !";
+// var fName   = prompt ("Please enter your Name to visit our Website.");
 
-if (fName == null) {
-    alert ("Please Enter Your Name.");
-}
-document.getElementById ('goodDay').innerHTML = (message + " " + fName );
-}
-askName ();
-
+// if (fName == null) {
+//     alert ("Please Enter Your Name.");
+// }
+// document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+// }
+// askName ();
 
 // Concatenation Some Strings
 document.getElementById ('concatenateSomeStrings').onclick = function () {
@@ -44,12 +43,12 @@ document.getElementById ('concatenateSomeStrings').onclick = function () {
 
 // Ask Name From User
 document.getElementById ('askFromUser').onclick = function () {
-    var message = "Good Day ";
-    var firstName = prompt ("What is your First Name?");
-    var lastName = prompt ("What is your Last Name?");
-    var banger = " ! ";
-    document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
-    document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
+    // var message = "Good Day ";
+    // var firstName = prompt ("What is your First Name?");
+    // var lastName = prompt ("What is your Last Name?");
+    // var banger = " ! ";
+    // document.getElementById ('statements').innerHTML = (message + firstName + " " + lastName +   banger);
+    // document.getElementById ('outputs').innerHTML = (message + firstName + " " + lastName +   banger);
     // console.log (message + firstName + " " + lastName + banger);
     // alert (message + firstName + " " + lastName + banger);
     
@@ -67,13 +66,13 @@ document.getElementById ('askFromUser').onclick = function () {
     //     return;
     // }
 
-    // var one = "2";
-    // var two = 2;
-    // if (one == two) {
-    //     document.getElementById ('statements').innerHTML = ("Yess It's True");
-    //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
+    var one = "2";
+    var two = 2;
+    if (one !== two) {
+        document.getElementById ('statements').innerHTML = ("Yess It's True");
+        document.getElementById ('outputs').innerHTML = ("Yess It's True");
 
-    // }
+    }
 
     // document.getElementById ('statements').innerHTML = (number1 + number2);
     // document.getElementById ('outputs').innerHTML = (number1 + number2);
@@ -87,6 +86,27 @@ document.getElementById ('askFromUser').onclick = function () {
 }
 
 // Comparison Operators
+
+// Value Assign
+// =
+// Only Value Check
+// ==
+// "1" == 1 = True
+// "1"  === 1 = False
+//  1 == 1 = True
+//  1 === 1 = True
+// Identity Operators
+// === Values + Data Types
+// Not Equal 
+//  ! = Values
+//  !== Values + Data Types
+// Greater or Less 
+// > Greater
+// < Less
+// Greater Than or Equal to >=
+// Less Than or Equal to <=
+
+
 
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

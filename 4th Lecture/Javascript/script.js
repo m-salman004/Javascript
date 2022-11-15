@@ -110,15 +110,20 @@ document.getElementById ('comparisonOperators').onclick = function () {
     var num1 = 15;
     var num2 = 15;
 // Less Than
-    if (num1 < num2) {
+    if (num1 <= num2) {
         document.getElementById ('statements').innerHTML = ("Yess It's True");
         document.getElementById ('outputs').innerHTML = ("Yess It's True");
     }
 // Greater Than
-    if (num1 > num2) {
-        document.getElementById ('statements').innerHTML = ("Yess It's True");
-        document.getElementById ('outputs').innerHTML = ("Yess It's True");
-    }
+    // if (num1 > num2) {
+    //     document.getElementById ('statements').innerHTML = ("Yess It's True");
+    //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
+    // }
+// Greater Than
+    // if (num1 > num2) {
+    //     document.getElementById ('statements').innerHTML = ("Yess It's True");
+    //     document.getElementById ('outputs').innerHTML = ("Yess It's True");
+    // }
 }
 
 

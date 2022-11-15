@@ -142,7 +142,10 @@ document.getElementById ('comparisonOperators').onclick = function () {
     document.getElementById ('ifElseIf').onclick = function () {
         var num5 = 10;
         var num6 = 20;
-        
+        if (num5 >= num6) {
+            document.getElementById ('statements').innerHTML = ("First Condtion is not Ture.");
+            document.getElementById ('outputs').innerHTML = ("First Condtion is not Ture.");
+        }
 
     }
 

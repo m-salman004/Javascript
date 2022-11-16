@@ -187,6 +187,12 @@ document.getElementById ('testingSetsConditions').onclick = function () {
         document.getElementById ('outputs').innerHTML = ("You are a Baby.");
     }
 }
+
+// If Statements Nested
+document.getElementById ('ifStatementsNested').onclick = function () {
+    var age = ("Your Age?");
+    
+}
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {
     document.getElementById ('statements').innerHTML = "";

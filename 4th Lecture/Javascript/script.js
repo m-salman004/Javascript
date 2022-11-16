@@ -193,8 +193,20 @@ document.getElementById ('ifStatementsNested').onclick = function () {
 
     var age = +prompt("Your Age?");
     if (age >=18 ) {
+
+       var weight = +prompt ("Your Weight?")
+       if (weight <= 70 ) {
         document.getElementById ('statements').innerHTML = ("You are a Smart Man.");
         document.getElementById ('outputs').innerHTML = ("You are a Smart Man.");
+       }
+       else if (weight > 70) {
+        document.getElementById ('statements').innerHTML = ("You are a Fat Guy.");
+        document.getElementById ('outputs').innerHTML = ("You are a Fat Guy.");
+       }
+       else {
+        document.getElementById ('statements').innerHTML = ("You are a Baby.");
+        document.getElementById ('outputs').innerHTML = ("You are a Baby.");
+       }
     }
 
     else {

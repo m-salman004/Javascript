@@ -218,7 +218,14 @@ document.getElementById ('logIn').onclick = function () {
     var userName = prompt ("Your User Name");
     var pass    = prompt ("Your Password");
 
-    
+    if (userName === "Salman" && pass === "123") {
+        document.getElementById ('statements').innerHTML = ("User Loged In.");
+        document.getElementById ('outputs').innerHTML = ("User Loged In.");
+    }
+    else {
+        document.getElementById ('statements').innerHTML = ("Your User Name or Password is incorrect.");
+        document.getElementById ('outputs').innerHTML = ("Your User Name or Password is incorrect.");
+    }
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

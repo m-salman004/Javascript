@@ -178,6 +178,10 @@ document.getElementById ('testingSetsConditions').onclick = function () {
         document.getElementById ('statements').innerHTML = ("You are a Smart Man.");
         document.getElementById ('outputs').innerHTML = ("You are a Smart Man.");
     }
+    else if (age >=18 && weight > 70) {
+        document.getElementById ('statements').innerHTML = ("You are a Fat Guy.");
+        document.getElementById ('outputs').innerHTML = ("You are a Fat Guy.");
+    }
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

@@ -170,6 +170,10 @@ document.getElementById ('comparisonOperators').onclick = function () {
 // Not Operator
 // !
 
+document.getElementById ('testingSetsConditions').onclick = function () {
+    var age = +prompt ("Enter Your Age.");
+    var weight = +prompt ("Enter Your Weight.");
+}
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {
     document.getElementById ('statements').innerHTML = "";

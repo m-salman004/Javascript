@@ -182,6 +182,10 @@ document.getElementById ('testingSetsConditions').onclick = function () {
         document.getElementById ('statements').innerHTML = ("You are a Fat Guy.");
         document.getElementById ('outputs').innerHTML = ("You are a Fat Guy.");
     }
+    else {
+        document.getElementById ('statements').innerHTML = ("You are a Baby.");
+        document.getElementById ('outputs').innerHTML = ("You are a Baby.");
+    }
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

@@ -173,6 +173,11 @@ document.getElementById ('comparisonOperators').onclick = function () {
 document.getElementById ('testingSetsConditions').onclick = function () {
     var age = +prompt ("Enter Your Age.");
     var weight = +prompt ("Enter Your Weight.");
+
+    if (age >=18 && weight <= 70) {
+        document.getElementById ('statements').innerHTML = ("You are a Smart Man.");
+        document.getElementById ('outputs').innerHTML = ("You are a Smart Man.");
+    }
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

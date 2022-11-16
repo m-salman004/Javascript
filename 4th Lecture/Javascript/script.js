@@ -190,8 +190,16 @@ document.getElementById ('testingSetsConditions').onclick = function () {
 
 // If Statements Nested
 document.getElementById ('ifStatementsNested').onclick = function () {
-    var age = ("Your Age?");
-    
+
+    var age = +prompt("Your Age?");
+    if (age >=18 ) {
+        document.getElementById ('statements').innerHTML = ("You are a Smart Man.");
+        document.getElementById ('outputs').innerHTML = ("You are a Smart Man.");
+    }
+
+    else {
+        alert ("You are a Baby.");
+    }
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

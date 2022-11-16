@@ -208,10 +208,17 @@ document.getElementById ('ifStatementsNested').onclick = function () {
         document.getElementById ('outputs').innerHTML = ("You are a Baby.");
        }
     }
-
     else {
         alert ("You are a Baby.");
     }
+}
+
+// Login
+document.getElementById ('logIn').onclick = function () {
+    var userName = prompt ("Your User Name");
+    var pass    = prompt ("Your Password");
+
+    
 }
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

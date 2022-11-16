@@ -160,8 +160,15 @@ document.getElementById ('comparisonOperators').onclick = function () {
         }
 
     }
-
-
+ 
+// Testing sets of Conditions
+// Logical Operators
+// And Operator
+// &&
+// OR Operator
+// ||
+// Not Operator
+// !
 
 // Clear Statement 
 document.getElementById ('clearstmnt').onclick = function () {

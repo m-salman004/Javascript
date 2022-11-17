@@ -6,3 +6,7 @@ nav, footer {
 main {
     flex: 1 0 auto;
 }
+.originalString {
+    background-color: #1d3557 !important;
+    color: white !important; 
+}

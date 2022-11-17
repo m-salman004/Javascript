@@ -3,3 +3,6 @@ nav, footer {
     background-color: #1d3557 !important;
 }
 /* Main */
+main {
+    flex: 1 0 auto;
+}

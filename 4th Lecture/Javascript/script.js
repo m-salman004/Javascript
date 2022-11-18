@@ -7,16 +7,16 @@
 // }
 // document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 
-// Alternative Method
-// window.onload = function () {
-//     var message = "Good Day !";
-// var fName   = prompt ("Please enter your Name to visit our Website.");
+Alternative Method
+window.onload = function () {
+    var message = "Good Day !";
+var fName   = prompt ("Please enter your Name to visit our Website.");
 
-// if (fName == null) {
-//     alert ("Please Enter Your Name.");
-// }
-// document.getElementById ('goodDay').innerHTML = (message + " " + fName );
-// }
+if (fName == null) {
+    alert ("Please Enter Your Name.");
+}
+document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+}
 
 // Alternative Method
 // function askName () {

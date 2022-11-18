@@ -6,6 +6,9 @@ nav, footer {
 main {
     flex: 1 0 auto;
 }
+.buttons .btn {
+    margin-bottom: 8px;
+}
 .originalString {
     background-color: #1d3557 !important;
     color: white !important; 

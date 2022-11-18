@@ -13,6 +13,8 @@ let city1 = "LHR";
 let city3 = "ISB";
 
 let cities = ["FSB", "LHR", "ISB"];
-// Push Method Last Add
+// Push Method Array Last Value Add
 cities.push ("Karachi", "Multan")
+// Pop Method Array Last Value Remove
+cities.pop ( )
 alert (cities);

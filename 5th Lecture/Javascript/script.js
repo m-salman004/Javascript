@@ -14,7 +14,9 @@
 
 let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // Slice Method Copy Paste
-let newCitites = cities.slice ()
+let newCities = cities.slice ()
+console.log ("Cities=>", cities)
+console.log ("New Cities=>",  newCities)
 // Push Method Array Last Value Add
 // cities.push ("Karachi", "Multan")
 // Pop Method Array Last Value Remove
@@ -24,5 +26,5 @@ let newCitites = cities.slice ()
 // UnShift Method Array Start Value Add
 // cities.unshift ("Faisalabad")
 // Splice Array Mid Remove and Add
-cities.splice(1, 0, "Shahkot", "Gojra")
-alert (cities);
+// cities.splice(1, 0, "Shahkot", "Gojra")
+// alert (cities);

@@ -8,6 +8,7 @@ main {
 }
 .buttons .btn {
     margin-bottom: 8px;
+    min-width: 45% !important;
 }
 .originalString {
     background-color: #1d3557 !important;

@@ -21,6 +21,6 @@ let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // cities.shift ( )
 // UnShift Method Array Start Value Add
 // cities.unshift ("Faisalabad")
-// Splice Array Mid Remove 
-cities.splice(1, 3)
+// Splice Array Mid Remove and Add
+cities.splice(1, 3, "Shahkot", "Gojra")
 alert (cities);

@@ -12,11 +12,15 @@
 // let city1 = "LHR";
 // let city3 = "ISB";
 
-let cities = ["FSB", "LHR", "ISB"];
+let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // Push Method Array Last Value Add
-cities.push ("Karachi", "Multan")
+// cities.push ("Karachi", "Multan")
 // Pop Method Array Last Value Remove
-cities.pop ( )
+// cities.pop ( )
 // Shift Method Array Start Value Remove
-cities.shift ( )
+// cities.shift ( )
+// UnShift Method Array Start Value Add
+// cities.unshift ("Faisalabad")
+// Splice Array Mid Remove 
+cities.splice(1, 3)
 alert (cities);

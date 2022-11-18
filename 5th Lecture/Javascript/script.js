@@ -13,4 +13,6 @@ let city1 = "LHR";
 let city3 = "ISB";
 
 let cities = ["FSB", "LHR", "ISB"];
-alert (cities[2]);
+// Push Method Last Add
+cities.push ("Karachi", "Multan")
+alert (cities);

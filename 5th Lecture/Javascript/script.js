@@ -8,8 +8,9 @@
 //     document.getElementById ('userName').innerHTML = (message + " " + name);
 // }
 // Array 
-let city0 = "FSD"
-let city1 = "LHR"
-let city3 = "ISB"
+let city0 = "FSD";
+let city1 = "LHR";
+let city3 = "ISB";
 
-let cities = ["FSB", "LHR", "ISB"]
+let cities = ["FSB", "LHR", "ISB"];
+alert (cities);

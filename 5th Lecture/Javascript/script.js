@@ -13,6 +13,8 @@
 // let city3 = "ISB";
 
 let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
+// Slice Method Copy Paste
+let newCitites = cities.slice ()
 // Push Method Array Last Value Add
 // cities.push ("Karachi", "Multan")
 // Pop Method Array Last Value Remove
@@ -22,5 +24,5 @@ let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // UnShift Method Array Start Value Add
 // cities.unshift ("Faisalabad")
 // Splice Array Mid Remove and Add
-cities.splice(1, 3, "Shahkot", "Gojra")
+cities.splice(1, 0, "Shahkot", "Gojra")
 alert (cities);

@@ -11,3 +11,5 @@
 let city0 = "FSD"
 let city1 = "LHR"
 let city3 = "ISB"
+
+let cities = ["FSB", "LHR", "ISB"]

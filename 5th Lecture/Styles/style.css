@@ -10,6 +10,9 @@ main {
     margin-bottom: 8px;
     min-width: 45% !important;
 }
+.buttons .btn:last-child {
+    margin-bottom: 0px !important;
+}
 .originalString {
     background-color: #1d3557 !important;
     color: white !important; 

@@ -14,13 +14,13 @@
 
 let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // For Loop
-for (i = 0; i < cities; i++) {
-    
+for (let i = 0; i < cities.length; i++) {
+    alert (cities [i]);
 }
 // Slice Method Copy Paste
 let newCities = cities.slice ()
-console.log ("Cities=>", cities)
-console.log ("New Cities=>",  newCities)
+// console.log ("Cities=>", cities)
+// console.log ("New Cities=>",  newCities)
 // Push Method Array Last Value Add
 // cities.push ("Karachi", "Multan")
 // Pop Method Array Last Value Remove

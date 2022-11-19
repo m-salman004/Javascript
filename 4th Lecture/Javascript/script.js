@@ -7,7 +7,7 @@
 // }
 // document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 
-Alternative Method
+// Alternative Method
 window.onload = function () {
     var message = "Good Day !";
 var fName   = prompt ("Please enter your Name to visit our Website.");

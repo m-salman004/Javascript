@@ -12,13 +12,13 @@
 // let city1 = "LHR";
 // let city3 = "ISB";
 
-let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
+// let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
 // For Loop
-for (let i = 0; i < cities.length; i++) {
-    alert (cities [i]);
-}
+// for (let i = 0; i < cities.length; i++) {
+//     alert (cities [i]);
+// }
 // Slice Method Copy Paste
-let newCities = cities.slice ()
+// let newCities = cities.slice ()
 // console.log ("Cities=>", cities)
 // console.log ("New Cities=>",  newCities)
 // Push Method Array Last Value Add
@@ -32,3 +32,8 @@ let newCities = cities.slice ()
 // Splice Array Mid Remove and Add
 // cities.splice(1, 0, "Shahkot", "Gojra")
 // alert (cities);
+
+// Simple Alert
+document.getElementById ('simpleAlert').onclick = function () {
+    alert ("I'm Muhammad Salman");
+}

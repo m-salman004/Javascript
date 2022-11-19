@@ -13,6 +13,10 @@
 // let city3 = "ISB";
 
 let cities = ["FSB", "LHR", "ISB", "Karachi", "Multan"];
+// For Loop
+for (i = 0; i < cities; i++) {
+    
+}
 // Slice Method Copy Paste
 let newCities = cities.slice ()
 console.log ("Cities=>", cities)

@@ -37,6 +37,11 @@
 document.getElementById ('simpleAlert').onclick = function () {
     alert ("I'm Muhammad Salman");
 }
+
+// Clear
+document.getElementById ('clearBtn').onclick = function () {
+    document.getElementById ('clearButton').innerHTML = " ";
+}
 // Clear Output
 document.getElementById ('clearOutput').onclick = function () {
     document.getElementById ('outPut').innerHTML = " ";

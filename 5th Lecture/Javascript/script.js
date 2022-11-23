@@ -38,6 +38,25 @@ document.getElementById ('simpleAlert').onclick = function () {
     alert ("I'm Muhammad Salman");
 }
 
+// Print My Name
+document.getElementById ('printMyName').onclick = function () {
+
+}
+
+// Print All Cities
+document.getElementById ('printAllCities').onclick = function () {
+
+}
+
+// Add Your City in List
+document.getElementById ('addYourCityInList').onclick = function () {
+
+}
+
+// Generate Table
+document.getElementById ('generateTable').onclick = function () {
+
+}
 // Clear
 document.getElementById ('clearBtn').onclick = function () {
     document.getElementById ('clearButton').innerHTML = " ";

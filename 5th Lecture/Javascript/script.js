@@ -52,7 +52,7 @@ document.getElementById ('printAllCities').onclick = function () {
     for (i= 0 ; i < cities.length ; i++) {
 
         let num = i + 1;
-           
+      document.getElementById ('outPut').innerHTML += num + ') ' +  cities[i] + '<br />';        
     }
 }
 

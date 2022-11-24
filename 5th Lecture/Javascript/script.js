@@ -47,7 +47,8 @@ document.getElementById ('printMyName').onclick = function () {
 
 // Print All Cities
 document.getElementById ('printAllCities').onclick = function () {
-
+    document.getElementById ('outPut').innerHTML = "";
+    
 }
 
 // Add Your City in List

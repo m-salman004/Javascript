@@ -47,10 +47,12 @@ document.getElementById ('printMyName').onclick = function () {
 
 // Print All Cities
 document.getElementById ('printAllCities').onclick = function () {
-    // document.getElementById ('outPut').innerHTML = "";
+    document.getElementById ('outPut').innerHTML = "";
 
     for (i= 0 ; i < cities.length ; i++) {
-      
+
+        let num = i + 1;
+           
     }
 }
 

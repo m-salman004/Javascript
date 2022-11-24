@@ -1,3 +1,5 @@
+// Global Array
+let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 // Please Enter Your Name to visit our Website
 // window.onload = function () {
 //     var message = ("Good Day !");
@@ -40,7 +42,7 @@ document.getElementById ('simpleAlert').onclick = function () {
 
 // Print My Name
 document.getElementById ('printMyName').onclick = function () {
-
+    
 }
 
 // Print All Cities

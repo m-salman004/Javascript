@@ -2,3 +2,8 @@
 nav {
     background-color: #1d3557 !important;
 }
+/* Original String */
+.originalString {
+    background-color: #1d3557 !important;
+    color: white !important; 
+}

@@ -9,8 +9,8 @@ nav {
 }
 /* Buttons */
 .buttons .btn {
-    margin-bottom: 8px;
-    min-width: 50% !important;
+    margin-bottom: 10px;
+    min-width: 60% !important;
 }
 .buttons .btn:last-child {
     margin-bottom: 0px !important;

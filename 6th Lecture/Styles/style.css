@@ -1,4 +1,4 @@
-/* Nav Bar*/
+/* Nav Bar & Footer*/
 nav, footer {
     background-color: #1d3557 !important;
 }
@@ -10,7 +10,7 @@ nav, footer {
 /* Buttons */
 .buttons .btn {
     margin-bottom: 8px;
-    min-width: 45% !important;
+    min-width: 50% !important;
 }
 .buttons .btn:last-child {
     margin-bottom: 0px !important;

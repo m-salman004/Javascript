@@ -7,3 +7,11 @@ nav {
     background-color: #1d3557 !important;
     color: white !important; 
 }
+/* Buttons */
+.buttons .btn {
+    margin-bottom: 8px;
+    min-width: 70% !important;
+}
+.buttons .btn:last-child {
+    margin-bottom: 0px !important;
+}

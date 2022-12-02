@@ -1,7 +1,7 @@
 // Please  Enter your Name and Email 
 window.onload = function () { 
     var message = ("Good Day !");
-    var name = ("What is Your Name?");
+    var name = prompt("What is Your Full Name?");
 
     
 };

@@ -13,7 +13,7 @@ function askName () {
         var fName   = prompt ("Please enter your Name to visit our Website.");
 
         if (fName == null) {
-                
+                alert ("Please Enter Your Name.");
             }
         document.getElementById ('userName').innerHTML = (message + " " + fName );
 };

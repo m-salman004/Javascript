@@ -7,3 +7,7 @@ window.onload = function () {
     }   
     document.getElementById ('userName').innerHTML = (message + " " + name);
 };
+// Alternative Method
+function askName () {
+    
+};

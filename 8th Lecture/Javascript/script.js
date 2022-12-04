@@ -9,5 +9,6 @@ window.onload = function () {
 };
 // Alternative Method
 function askName () {
-    
+        var message = "Good Day !";
+        var fName   = prompt ("Please enter your Name to visit our Website.");
 };

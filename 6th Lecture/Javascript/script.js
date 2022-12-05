@@ -18,3 +18,5 @@ function askName () {
   
     document.getElementById ('userName').innerHTML = (message + " " + fName );
 };
+
+    askName();

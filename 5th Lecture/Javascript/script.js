@@ -13,6 +13,9 @@ let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 var message = "Good Day !";
 var fName   = prompt ("Please enter your Name to visit our Website.");
 
+if (fName == null) {
+    
+}
 
 document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 

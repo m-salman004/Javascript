@@ -14,6 +14,9 @@ var message = "Good Day !";
 var fName   = prompt ("Please enter your Name to visit our Website.");
 
 
+document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+
+
 // Array 
 // let city0 = "FSD";
 // let city1 = "LHR";

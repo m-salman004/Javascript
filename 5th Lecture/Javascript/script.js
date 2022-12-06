@@ -11,7 +11,7 @@ let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 // }
 // Alternative Method
 var message = "Good Day !";
-var fName   =  ("Please enter your Name to visit our Website.");
+var fName   = prompt ("Please enter your Name to visit our Website.");
 
 
 // Array 

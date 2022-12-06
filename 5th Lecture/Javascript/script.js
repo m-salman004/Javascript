@@ -9,6 +9,11 @@ let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 //     }
 //     document.getElementById ('userName').innerHTML = (message + " " + name);
 // }
+// Alternative Method
+var message = "Good Day !";
+var fName   =  ("Please enter your Name to visit our Website.");
+
+
 // Array 
 // let city0 = "FSD";
 // let city1 = "LHR";

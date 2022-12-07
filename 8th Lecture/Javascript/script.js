@@ -23,3 +23,7 @@ let message = "Good Day !";
 let fName   = prompt ("Please enter your Name to visit our Website.");
 
 
+
+document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+
+

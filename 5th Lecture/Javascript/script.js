@@ -1,3 +1,6 @@
+// Original String
+var originalText = "1) Faisalabad  2) Lahore  3) Peshawar  4) Islamabad";
+
 // Global Array
 let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 // Please Enter Your Name to visit our Website
@@ -10,14 +13,14 @@ let cities = ["FSB", "LHR", "ISB", "PSR", "Lahore"];
 //     document.getElementById ('userName').innerHTML = (message + " " + name);
 // }
 // Alternative Method
-var message = "Good Day !";
-var fName   = prompt ("Please enter your Name to visit our Website.");
+// var message = "Good Day !";
+// var fName   = prompt ("Please enter your Name to visit our Website.");
 
-if (fName == null) {
-    alert ("Please Enter Your Name.");
-}
+// if (fName == null) {
+//     alert ("Please Enter Your Name.");
+// }
 
-document.getElementById ('goodDay').innerHTML = (message + " " + fName );
+// document.getElementById ('goodDay').innerHTML = (message + " " + fName );
 
 
 // Array 

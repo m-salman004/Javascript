@@ -23,3 +23,7 @@ let originalText = "I love my Country Pakistan. <br/> I love my Faisalabad. <br/
 //     askName();
 
 document.getElementById('originalTextBox').innerHTML = originalText;
+// Clear Output
+function clearOutput () {
+    document.getElementById ('output').innerHTML = "";
+ }

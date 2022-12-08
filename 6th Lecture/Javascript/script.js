@@ -27,3 +27,7 @@ document.getElementById('originalTextBox').innerHTML = originalText;
 function clearOutput () {
     document.getElementById ('output').innerHTML = "";
  }
+//  Clear Input
+function clearInput () {
+    document.getElementById ('inputText').innerHTML = "";
+ }

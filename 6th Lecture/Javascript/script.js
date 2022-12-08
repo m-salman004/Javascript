@@ -1,3 +1,4 @@
+let originalText = "I love my Country Pakistan. <br/> I love my Faisalabad. <br/> I love my Homeland. "
 // Please Enter Your Name to visit our Website
 // window.onload = function () {
 //     var message = ("Good Day !");
@@ -8,15 +9,15 @@
 //     document.getElementById ('userName').innerHTML = (message + " " + name);
 // };
 // Alternative Method
-function askName () {
-    var message = "Good Day !";
-    var fName   = prompt ("Please enter your Name to visit our Website.");
+// function askName () {
+//     var message = "Good Day !";
+//     var fName   = prompt ("Please enter your Name to visit our Website.");
 
-    if (fName == null) {
-        alert ("Please Enter Your Name.");
-    }
+//     if (fName == null) {
+//         alert ("Please Enter Your Name.");
+//     }
   
-    document.getElementById ('userName').innerHTML = (message + " " + fName );
-};
+//     document.getElementById ('userName').innerHTML = (message + " " + fName );
+// };
 
-    askName();
+//     askName();

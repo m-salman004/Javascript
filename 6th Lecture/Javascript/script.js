@@ -31,6 +31,10 @@ document.getElementById ('convertToLowercase').onclick = function () {
 document.getElementById ('convertToUppercase').onclick = function () {
 
  };
+// Convert to Capitalize
+document.getElementById ('convertToCapitalize').onclick = function () {
+
+ };
 // Clear Output
 function clearOutput () {
     document.getElementById ('output').innerHTML = "";

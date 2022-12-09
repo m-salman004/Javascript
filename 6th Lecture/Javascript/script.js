@@ -27,6 +27,10 @@ document.getElementById('originalTextBox').innerHTML = originalText;
 document.getElementById ('convertToLowercase').onclick = function () {
     
  };
+// Convert to Uppercase
+document.getElementById ('convertToUppercase').onclick = function () {
+
+ };
 // Clear Output
 function clearOutput () {
     document.getElementById ('output').innerHTML = "";

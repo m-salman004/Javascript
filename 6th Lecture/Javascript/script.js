@@ -23,6 +23,10 @@ let originalText = "I love my Country Pakistan. <br/> I love my Faisalabad. <br/
 //     askName();
 
 document.getElementById('originalTextBox').innerHTML = originalText;
+// Convert to Lowercase
+document.getElementById ('convertToLowercase').onclick = function () {
+    
+ };
 // Clear Output
 function clearOutput () {
     document.getElementById ('output').innerHTML = "";

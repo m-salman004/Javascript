@@ -79,7 +79,7 @@ document.getElementById ('addYourCityInList').onclick = function () {
 document.getElementById ('generateTable').onclick = function () {
 
 }
-// Clear
+// Clear Input
 document.getElementById ('clearBtn').onclick = function () {
     document.getElementById ('clearButton').innerHTML = " ";
 }

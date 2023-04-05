@@ -28,3 +28,7 @@ let firstName = 'Muhammad Salman';
 let lastName = 'Salman'; 
 // examples = "Farrukh", "An Apple", "#", "8" "email@test.com"
 // Any letter, word or sentence is String in JavaScript
+
+// 2. Number
+let myLuckyNumber = 8;
+// example = 4, 37, 0, -34, 4.765

@@ -32,3 +32,7 @@ let lastName = 'Salman';
 // 2. Number
 let myLuckyNumber = 8;
 // example = 4, 37, 0, -34, 4.765
+
+// 3. Boolean
+let isTodayMonday = true;
+// emaple = true & false

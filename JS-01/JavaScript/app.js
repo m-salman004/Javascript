@@ -12,3 +12,7 @@ let firstName = 'Muhammad Salman';
 // lastname
 // Allowed Special Characters
 // _ $
+// let $nameWith$Dollar = "";
+// let _nameWith_Dollar = "";
+// Var cannot be start with a number
+// let myName

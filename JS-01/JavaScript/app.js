@@ -16,3 +16,10 @@ let firstName = 'Muhammad Salman';
 // let _nameWith_Dollar = "";
 // Var cannot be start with a number
 // let myName
+
+// Illegal
+// let last name // spaces
+// let my#name
+// reserved words
+
+// alert(firstName);

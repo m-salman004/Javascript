@@ -49,7 +49,9 @@ console.log(num3 % num4);
 // randomNumber = Math.round(randomNumber); 
 // console.log(randomNumber);
 
-// BODMAS = Brackets , Open , Division , Multiply , Add , Subtract
-let number1 = (10 + 56) * 85 / 100 - 55;
+// BODMAS = Brackets Open , Division , Multiply , Add , Subtract
+// let number1 = (10 + 56) * 85 / 100 - 55;
+// Double Multiply =  Power
+let number1 = 5 ** 2;  
 console.log (number1);
 

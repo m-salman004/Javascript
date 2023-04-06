@@ -17,3 +17,8 @@ console.log(data4 + data5);
 let data6 = 5;
 let data7 = 9;
 console.log(data6 + data7);
+
+// Boolean
+let data8 = 'Hello';
+let data9 = data8.includes ('H');
+console.log(data9);

@@ -36,3 +36,7 @@ console.log(num3 % num4);
 // Prompt
 let userName = prompt('What is Your Good Name?');
 console.log ('Welcome to my Course JS ' + userName);
+
+// Document.write
+let userName1 = prompt('What is Your Good Name?');
+document.write ('Welcome to my Course JS ' + userName1);

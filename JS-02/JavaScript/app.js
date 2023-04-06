@@ -23,7 +23,12 @@ let data8 = 'Hello';
 let data9 = data8.includes ('H');
 console.log(data9);
 
-// String convert into Number
+// String convert into Number (+ & Parse Int)
 let num = '5';
 let num2 = 6;
 console.log(parseInt(num) + num2);
+
+// Math Operators = + - * / % (Modulo)
+let num3 = 6;
+let num4 = 5;
+console.log(num3 % num4);

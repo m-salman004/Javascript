@@ -45,5 +45,6 @@ console.log(num3 % num4);
 let randomNumber = Math.random();
 // randomNumber    = randomNumber * 5;
 // Short Hand
-randomNumber *= 5;      
+randomNumber *= 5;     
+randomNumber = Math.round(randomNumber); 
 console.log(randomNumber);

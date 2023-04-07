@@ -42,9 +42,14 @@ console.log(num3 % num4);
 // document.write ('Welcome to my Course JS ' + userName1);
 
 // Random Number    
-let randomNumber = Math.random();
+// let randomNumber = Math.random();
 // randomNumber    = randomNumber * 5;
 // Short Hand
-randomNumber *= 5;     
-randomNumber = Math.round(randomNumber); 
-console.log(randomNumber);
+// randomNumber *= 5;     
+// randomNumber = Math.round(randomNumber); 
+// console.log(randomNumber);
+
+// BODMAS = Brackets , Open , Division , Multiply , Add , Subtract
+let number1 = (10 + 56) * 85 / 100 - 55;
+console.log (number1);
+

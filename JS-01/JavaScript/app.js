@@ -35,11 +35,15 @@ let myLuckyNumber = 8;
 
 // 3. Boolean
 let isTodayMonday = true;
-// emaple = true & false
+// exmaple = true & false
 
 // Chapter no 1
 // Topic name is Alert
 // Exercise solve
-alert("My Name is Muhammad Salman !");
+// alert("My Name is Muhammad Salman !");
 // or
-window.alert("Hello!");
+// window.alert("Hello!");
+
+// Chapter no 2
+// Topic name is Variables for Strings
+// A variable is a word that refers to a particular value.

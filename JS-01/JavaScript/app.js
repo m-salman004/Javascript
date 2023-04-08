@@ -36,3 +36,10 @@ let myLuckyNumber = 8;
 // 3. Boolean
 let isTodayMonday = true;
 // emaple = true & false
+
+// Chapter no 1
+// Topic name is Alert
+// Exercise solve
+alert("My Name is Muhammad Salman !");
+// or
+window.alert("Hello!");

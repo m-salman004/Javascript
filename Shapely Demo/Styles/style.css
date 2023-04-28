@@ -1,5 +1,8 @@
 #heroSection {
-   background-image: url(../assets/images/screenshot.png);
+   background-image: url("../assets/Images/1.jpg");
+   min-height: 100vh;
+   background-position: center;
+   background-size: cover;
 }
 .btn {
    border-radius: 0%;
